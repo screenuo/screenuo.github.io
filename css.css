@@ -1,0 +1,124 @@
+body {
+	font-family: Arial, sans-serif;
+	width: 98%;
+	margin: 1%;
+}
+
+header {
+	margin: auto;
+	width: 190px;
+}
+
+main {}
+
+.page {
+	margin: auto;
+	width: 450px;
+	margin-top: 57px;
+}
+
+.logo {}
+
+.logo_svg {}
+
+.links {
+	float: left;
+	margin-top: 66px;
+}
+
+.link_logo {
+	float: left;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 49px;
+}
+
+.link_logo_svg {}
+
+.link {
+	text-align: center;
+	margin-top: 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.apple {
+	color: #999999;
+}
+
+.crypto {
+	color: #F7931A;
+}
+
+.digital {
+	color: #1235C2;
+}
+
+.stocks {
+	color: #5D03E5;
+}
+
+@media screen and (max-width: 448px) {
+	header {}
+
+	main {
+		margin: auto;
+		width: 110px;
+		/* padding-bottom: 80px; */
+	}
+
+	.links {
+		margin: 48px auto;
+		width: 130px;
+		padding-bottom: 15px;
+	}
+
+	.page {
+		max-width: fit-content;
+		margin-inline: auto;
+	}
+
+	.link_logo {
+		float: left;
+		width: 83%;
+		margin: 14% auto;
+	}
+
+}
+
+.logo:hover,
+.link_logo:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
