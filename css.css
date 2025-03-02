@@ -13,7 +13,7 @@ main {}
 
 .page {
 	margin: auto;
-	width: 450px;
+	width: 760px;
 	margin-top: 57px;
 }
 
@@ -43,20 +43,49 @@ main {}
 	font-weight: bold;
 }
 
-.apple {
-	color: #999999;
-}
+.uni{color: #999999}
 
-.crypto {
-	color: #F7931A;
-}
+.android{color: #34A853}
+.apple{color: #999999}
+.cars{color: #6F5626}
+.crypto{color: #F7931A}
+.digital{color: #1235C2}
+.estate{color: #C89951}
+.fashion{color: #FD50C6}
+.food{color: #303C78}
+.instagram{color: #FE450A}
+.lego{color: #E3000B}
+.shopping{color: #71D123}
+.startups{color: #35E3EF}
+.stocks{color: #8841F4}
+.web{color: #A1DC00}
 
-.digital {
-	color: #1235C2;
-}
+@media screen and (max-width: 800px) {
+	header {}
 
-.stocks {
-	color: #5D03E5;
+	main {
+		margin: auto;
+		width: 110px;
+		/* padding-bottom: 80px; */
+	}
+
+	.links {
+		margin: 48px auto;
+		width: 130px;
+		padding-bottom: 15px;
+	}
+
+	.page {
+		max-width: fit-content;
+		margin-inline: auto;
+	}
+
+	.link_logo {
+		float: left;
+		width: 83%;
+		margin: 14% auto;
+	}
+
 }
 
 @media screen and (max-width: 448px) {
@@ -86,7 +115,6 @@ main {}
 	}
 
 }
-
 .logo:hover,
 .link_logo:hover {
 	opacity: 0.5;
