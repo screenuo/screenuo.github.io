@@ -19,6 +19,11 @@ main {}
 
 .logo {}
 
+.logo:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+
 .logo_svg {}
 
 .links {
@@ -34,7 +39,54 @@ main {}
 	margin-bottom: 49px;
 }
 
-.link_logo_svg {}
+.link_logo_svg {
+    width: 110px;
+    height: 110px;
+    background: url(svg/Logos.svg) 0px 110px;
+}
+
+a:hover .android_bg {background: url(svg/Logos.svg) 0px 0px;}
+a:hover .android_text {color: #34A853}
+
+a:hover .apple_bg {background: url(svg/Logos.svg) -110px 0px;}
+a:hover .apple_text {color: #7D7D7D}
+
+a:hover .cars_bg {background: url(svg/Logos.svg) -220px 0px;url(svg/Logos.svg) -110px contain-intrinsic-block-size: auto 100px;}
+a:hover .cars_text {color: #6F5626}
+
+a:hover .crypto_bg {background: url(svg/Logos.svg) -330px 0px;}
+a:hover .crypto_text {color: #F7931A}
+
+a:hover .digital_bg {background: url(svg/Logos.svg) -440px 0px;}
+a:hover .digital_text {color: #1235C2}
+
+a:hover .estate_bg {background: url(svg/Logos.svg) -550px 0px;}
+a:hover .estate_text {color: #C89951}
+
+a:hover .fashion_bg {background: url(svg/Logos.svg) -660px 0px;}
+a:hover .fashion_text {color: #FD50C6}
+
+a:hover .food_bg {background: url(svg/Logos.svg) -770px 0px;}
+a:hover .food_text {color: #303C78}
+
+a:hover .instagram_bg {background: url(svg/Logos.svg) -880px 0px;}
+a:hover .instagram_text {color: #FE450A}
+
+a:hover .lego_bg {background: url(svg/Logos.svg) -990px 0px;}
+a:hover .lego_text {color: #E3000B}
+
+a:hover .shopping_bg {background: url(svg/Logos.svg) -1100px 0px;}
+a:hover .shopping_text {color: #71D123}
+
+a:hover .startups_bg {background: url(svg/Logos.svg) -1210px 0px;}
+a:hover .startups_text {color: #35E3EF}
+
+a:hover .stocks_bg {background: url(svg/Logos.svg) -1320px 0px;}
+a:hover .stocks_text {color: #8841F4}
+
+a:hover .web_bg {background: url(svg/Logos.svg) -1430px 0px;}
+a:hover .web_text {color: #A1DC00}
+
 
 .link {
 	text-align: center;
@@ -45,20 +97,6 @@ main {}
 
 .uni{color: #999999}
 
-.android{color: #34A853}
-.apple{color: #999999}
-.cars{color: #6F5626}
-.crypto{color: #F7931A}
-.digital{color: #1235C2}
-.estate{color: #C89951}
-.fashion{color: #FD50C6}
-.food{color: #303C78}
-.instagram{color: #FE450A}
-.lego{color: #E3000B}
-.shopping{color: #71D123}
-.startups{color: #35E3EF}
-.stocks{color: #8841F4}
-.web{color: #A1DC00}
 
 @media screen and (max-width: 800px) {
 	header {}
@@ -115,10 +153,10 @@ main {}
 	}
 
 }
+
 .logo:hover,
 .link_logo:hover {
-	opacity: 0.5;
-	transition: opacity 1s;
+	
 }
 
 . {}
