@@ -154,6 +154,7 @@ text-overflow: ellipsis;
 color: #999999
 }
 @media screen and (max-width: 900px) {
+.body {width: 98%;margin: 34px 1%;float: left;}
 header {}
 main {
 }
