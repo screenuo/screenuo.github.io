@@ -1,190 +1,230 @@
 body {
-	font-family: Arial, sans-serif;
-	width: 98%;
-	margin: 1%;
+font-family: Arial, sans-serif;
+margin: 0px;
 }
-
+/* Header: */
+.header {
+background: #FAFAFA;
+padding: 34px 0px;
+}
 header {
-	margin: auto;
-	width: 190px;
+margin: auto;
+width: 110px;
 }
-
-main {}
-
-.page {
-	margin: auto;
-	width: 760px;
-	margin-top: 57px;
-}
-
+/* Header: Logo: */
 .logo {}
-
 .logo:hover {
-	opacity: 0.5;
-	transition: opacity 1s;
+opacity: 0.5;
+transition: opacity 1s;
 }
-
 .logo_svg {}
-
+/* Body: */
+.body {
+width: 98%;
+margin: 65px 1%;
+float: left;
+}
+.page {
+margin: auto;
+width: 758px;
+}
+main {}
 .links {
-	float: left;
-	margin-top: 66px;
+float: left;
 }
-
 .link_logo {
-	float: left;
-	text-decoration: none;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 49px;
+float: left;
+text-decoration: none;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+padding: 5px 14px 29px 14px;
+width: 160px;
+border: 1px solid #e6e6e6;
+margin: 0px;
 }
-
-.link_logo_svg {
-    width: 110px;
-    height: 110px;
-    background: url(svg/Logos.svg) 0px 110px;
-}
-
-a:hover .android_bg {background: url(svg/Logos.svg) 0px 0px;}
-a:hover .android_text {color: #34A853}
-
-a:hover .apple_bg {background: url(svg/Logos.svg) -110px 0px;}
-a:hover .apple_text {color: #7D7D7D}
-
-a:hover .cars_bg {background: url(svg/Logos.svg) -220px 0px;url(svg/Logos.svg) -110px contain-intrinsic-block-size: auto 100px;}
-a:hover .cars_text {color: #6F5626}
-
-a:hover .crypto_bg {background: url(svg/Logos.svg) -330px 0px;}
-a:hover .crypto_text {color: #F7931A}
-
-a:hover .digital_bg {background: url(svg/Logos.svg) -440px 0px;}
-a:hover .digital_text {color: #1235C2}
-
-a:hover .estate_bg {background: url(svg/Logos.svg) -550px 0px;}
-a:hover .estate_text {color: #C89951}
-
-a:hover .fashion_bg {background: url(svg/Logos.svg) -660px 0px;}
-a:hover .fashion_text {color: #FD50C6}
-
-a:hover .food_bg {background: url(svg/Logos.svg) -770px 0px;}
-a:hover .food_text {color: #303C78}
-
-a:hover .instagram_bg {background: url(svg/Logos.svg) -880px 0px;}
-a:hover .instagram_text {color: #FE450A}
-
-a:hover .lego_bg {background: url(svg/Logos.svg) -990px 0px;}
-a:hover .lego_text {color: #E3000B}
-
-a:hover .shopping_bg {background: url(svg/Logos.svg) -1100px 0px;}
-a:hover .shopping_text {color: #71D123}
-
-a:hover .startups_bg {background: url(svg/Logos.svg) -1210px 0px;}
-a:hover .startups_text {color: #35E3EF}
-
-a:hover .stocks_bg {background: url(svg/Logos.svg) -1320px 0px;}
-a:hover .stocks_text {color: #8841F4}
-
-a:hover .web_bg {background: url(svg/Logos.svg) -1430px 0px;}
-a:hover .web_text {color: #A1DC00}
-
-
-.link {
-	text-align: center;
-	margin-top: 0px;
-	font-size: 19px;
-	font-weight: bold;
-}
-
-.uni{color: #999999}
-
-
-@media screen and (max-width: 800px) {
-	header {}
-
-	main {
-		margin: auto;
-		width: 110px;
-		/* padding-bottom: 80px; */
-	}
-
-	.links {
-		margin: 48px auto;
-		width: 130px;
-		padding-bottom: 15px;
-	}
-
-	.page {
-		max-width: fit-content;
-		margin-inline: auto;
-	}
-
-	.link_logo {
-		float: left;
-		width: 83%;
-		margin: 14% auto;
-	}
-
-}
-
-@media screen and (max-width: 448px) {
-	header {}
-
-	main {
-		margin: auto;
-		width: 110px;
-		/* padding-bottom: 80px; */
-	}
-
-	.links {
-		margin: 48px auto;
-		width: 130px;
-		padding-bottom: 15px;
-	}
-
-	.page {
-		max-width: fit-content;
-		margin-inline: auto;
-	}
-
-	.link_logo {
-		float: left;
-		width: 83%;
-		margin: 14% auto;
-	}
-
-}
-
-.logo:hover,
 .link_logo:hover {
-	
+background: #fafafa;
 }
-
+.link_logo:active {
+opacity: 0.7;
+}
+.logo:hover {}
+.link_logo_svg {
+width: 110px;
+height: 110px;
+background: url(svg/Logos.svg) 0px 110px;
+margin: auto;
+}
+a:hover .android_bg {
+background: url(svg/Logos.svg) 0px 0px;
+}
+a:hover .android_text {
+color: #34A853
+}
+a:hover .apple_bg {
+background: url(svg/Logos.svg) -110px 0px;
+}
+a:hover .apple_text {
+color: #7D7D7D
+}
+a:hover .cars_bg {
+background: url(svg/Logos.svg) -220px 0px;
+url(svg/Logos.svg) -110px contain-intrinsic-block-size: auto 100px;
+}
+a:hover .cars_text {
+color: #6F5626
+}
+a:hover .crypto_bg {
+background: url(svg/Logos.svg) -330px 0px;
+}
+a:hover .crypto_text {
+color: #F7931A
+}
+a:hover .digital_bg {
+background: url(svg/Logos.svg) -440px 0px;
+}
+a:hover .digital_text {
+color: #1235C2
+}
+a:hover .estate_bg {
+background: url(svg/Logos.svg) -550px 0px;
+}
+a:hover .estate_text {
+color: #C89951
+}
+a:hover .fashion_bg {
+background: url(svg/Logos.svg) -660px 0px;
+}
+a:hover .fashion_text {
+color: #FD50C6
+}
+a:hover .food_bg {
+background: url(svg/Logos.svg) -770px 0px;
+}
+a:hover .food_text {
+color: #303C78
+}
+a:hover .instagram_bg {
+background: url(svg/Logos.svg) -880px 0px;
+}
+a:hover .instagram_text {
+color: #FE450A
+}
+a:hover .lego_bg {
+background: url(svg/Logos.svg) -990px 0px;
+}
+a:hover .lego_text {
+color: #E3000B
+}
+a:hover .shopping_bg {
+background: url(svg/Logos.svg) -1100px 0px;
+}
+a:hover .shopping_text {
+color: #71D123
+}
+a:hover .startups_bg {
+background: url(svg/Logos.svg) -1210px 0px;
+}
+a:hover .startups_text {
+color: #35E3EF
+}
+a:hover .stocks_bg {
+background: url(svg/Logos.svg) -1320px 0px;
+}
+a:hover .stocks_text {
+color: #8841F4
+}
+a:hover .web_bg {
+background: url(svg/Logos.svg) -1430px 0px;
+}
+a:hover .web_text {
+color: #A1DC00
+}
+.link {
+text-align: center;
+margin-top: 0px;
+font-size: 19px;
+font-weight: bold;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.uni {
+color: #999999
+}
+@media screen and (max-width: 900px) {
+header {}
+main {
+}
+.page {
+max-width: fit-content;
+margin-inline: auto;
+}
+.links {
+margin-left: auto;
+width: 188px;
+padding-bottom: 15px;
+}
+.link_logo {
+float: left;
+}
+}
+@media screen and (max-width: 448px) {
+header {}
+main {
+}
+.page {
+max-width: fit-content;
+margin-inline: auto;
+}
+.links {
+}
+.link_logo {
+}
+}
+/* Category: */
+.category{
+margin: auto;
+width: 300px;
+}
+.category_logo{
+text-align: center;
+margin: 0px 0px 41px 0px;
+}
+.category_logo_svg{}
+.category_button{
+text-align: center;
+border: 1px solid #E0E0E0;
+padding: 21px;
+border-radius: 50px;
+color: #999999;
+font-weight: bold;
+font-size: 19px;
+margin-bottom: 19px;
+width: 258px;
+float: left;
+text-decoration: none;
+word-wrap: break-word;
+}
+.category_button:hover {
+background: #fafafa;
+}
+.category_button:active {
+opacity: 0.7;
+}
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
-
 . {}
