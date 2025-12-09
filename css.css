@@ -94,6 +94,7 @@ a.link_logo:visited {
 a:hover .link_logo_svg {
 	display: block;
 	opacity: 1;
+	background: url(svg/Logos2.svg) 0px 0px;
 }
 
 a:hover .uni {
