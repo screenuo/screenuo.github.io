@@ -67,7 +67,7 @@ main {}
 }
 
 a.link_logo:visited {
-	color: #D8D8D8;
+	color: #85cf0f;
 }
 
 .link_logo:hover {
@@ -98,7 +98,7 @@ a:hover .link_logo_svg {
 }
 
 a:hover .uni {
-	color: #999999;
+	color: #85cf0f;
 }
 .hearth_symbol_svg {
     width: auto;
