@@ -53,27 +53,23 @@ main {}
 }
 
 .link_logo {
-	float: left;
-	text-decoration: none;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	padding: 14px;
-	width: 158px;
-	margin: 0px;
-	color: #999999;
-	border: 2px solid #ffffff;
-	transition: 1.2s;
+    float: left;
+    text-decoration: none;
+    padding: 14px;
+    width: 158px;
+    margin: 0px;
+    color: #999999;
+    border: 2px solid #ffffff;
+}
+
+.link_logo:hover {
+    border: 2px solid #85cf0f;
+    border-radius: 68px;
+    transition: 1.2s;
 }
 
 a.link_logo:visited {
 	color: #85cf0f;
-}
-
-.link_logo:hover {
-	/* display: block; */
-	border: 2px solid #85cf0f;
-	border-radius: 68px;
 }
 
 .link_logo:active {
